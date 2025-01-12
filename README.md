@@ -10,6 +10,20 @@ The chosen model yields a high average precision (0.81) when tested on unseen re
 - A comprehensive analysis and data exploration of hotel-specific distributions and patterns. 
 - Feature preprocessing using pipelines with optional PCA reduction. 
 - Business impact analysis with customizable cost metrics. 
+- Cross-validation and hyperparameter optimization using GridSearch. 
 
+## Models Implemented (using scikit-learn)
 
+- Logistic Regression 
+- Random Forest
+- Gradient Boosting
+- Stochastic Gradient Descent
+
+## Evaluation Metrics
+
+- Standard metrics: Accuracy, Precision, Recall, F1-score
+  - Business-specific metrics: Expected Cost Savings Rate, Cost per Booking, Total Savings
+
+### Authors
+**Johanna Schmucker, Tasnim El-Faghloumi and Rodrigo Sastré**
 
